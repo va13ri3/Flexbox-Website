@@ -1,0 +1,74 @@
+/* Color Styles */
+/* This selects a div element with a class that's name starts with "child" */
+div[class^="child"] {
+    padding: 0 10px;
+}
+
+.parent {
+    border: 2px solid #606c38;
+    margin: 20px 0;
+}
+
+.child, .child3, .child5, .child7 {
+    background-color: #bc6c25;
+    border: 1px solid #894e19;
+}
+
+.child2, .child4, .child6, .child8 {
+    background-color: #dda15e;
+    border: 1px solid #966b3a;
+}
+
+/* FLEXBOX STYLES */
+/* Add the flexbox styles below.
+You do NOT need to touch the styles above this */
+
+.parent {
+    display: flex;
+    flex-basis: 50px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.child2 {
+    display: flex;
+    flex-basis: 50px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.child3 {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.child4 {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.child5 {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 2;
+}
+
+.child6 {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.child7 {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+
+}
+.child8 {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 2;
+}
